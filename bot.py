@@ -198,12 +198,16 @@ def main():
             print(testo, "\n")
             continue
         codice, risposta = invia(token, chat_id, testo)
-        if codice == 200 or codice == 400:  # 400 = messaggio non valido: non riprovarlo
-            stato[n["chiave"]] = time.time()
         if codice != 200:
-            print(f"  ! Telegram {codice}: {risposta[:200]}")
-        if codice in (401, 403, 404):
-            sys.exit("Token o chat ID non validi, oppure il bot non è nella chat.")
+            print(f"  ! Telegram {codice}: {risposta[:300]}")
+        errore_chat = codice in (401, 403, 404) or (
+            codice == 400 and re.search(r"chat not found|not enough rights|bot was kicked|"
+                                        r"have no rights|chat_id is empty", risposta, re.I))
+        if errore_chat:
+            sys.exit("Token o chat ID non validi, oppure il bot non è nella chat "
+                     "o non può scriverci. Dettaglio di Telegram: " + risposta[:300])
+        if codice in (200, 400):  # 400 su un singolo messaggio: non riprovarlo
+            stato[n["chiave"]] = time.time()
         with open(FILE_STATO, "w", encoding="utf-8") as f:
             json.dump(stato, f)
         time.sleep(PAUSA_TRA_MESSAGGI)

@@ -148,7 +148,7 @@
   },
   {
    "nome": "Foggia Città Aperta",
-   "url": "https://www.foggiacittaaperta.it/feed",
+   "url": "https://news.google.com/rss/search?q=site%3Afoggiacittaaperta.it+when%3A1d&hl=it&gl=IT&ceid=IT:it",
    "filtro": false
   },
   {
@@ -383,8 +383,8 @@
   },
   {
    "nome": "Fanpage",
-   "url": "https://www.fanpage.it/feed/",
-   "filtro": true
+   "url": "https://news.google.com/rss/search?q=site%3Afanpage.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
   },
   {
    "nome": "Italpress",
