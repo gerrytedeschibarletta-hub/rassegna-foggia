@@ -1,0 +1,500 @@
+{
+ "fonti": {
+  "immediato.net": "l'Immediato",
+  "statoquotidiano.it": "Stato Quotidiano",
+  "foggiatoday.it": "FoggiaToday",
+  "foggiareporter.it": "Foggia Reporter",
+  "foggiacittaaperta.it": "Foggia Città Aperta",
+  "quotidianodifoggia.it": "Quotidiano di Foggia",
+  "lattacco.it": "l'Attacco",
+  "ilmattinoquotidiano.it": "Il Mattino di Foggia (ilmattinoquotidiano.it)",
+  "insidecapitanata.it": "InsideCapitanata",
+  "letteremeridiane.org": "Lettere Meridiane",
+  "ilsipontino.net": "ilSipontino.net",
+  "manfredonianews.it": "Manfredonia News",
+  "ilfattodelgargano.it": "Il Fatto del Gargano",
+  "gazzettah24.it": "Gazzetta H24",
+  "retegargano.it": "Rete Gargano",
+  "fuoriporta.info": "Fuoriporta.info",
+  "civico93.it": "Civico93",
+  "sangiovannirotondonet.it": "SanGiovanniRotondoNET",
+  "sanmarcoinlamis.eu": "Sanmarcoinlamis.eu",
+  "lagazzettadisansevero.it": "La Gazzetta di San Severo",
+  "sanseveroyoulive.it": "San Severo YouLive",
+  "lanotiziaweb.it": "lanotiziaweb.it",
+  "cerignolaviva.it": "CerignolaViva",
+  "marchiodoc.it": "Marchiodoc",
+  "luceraweb.eu": "LuceraWeb",
+  "ilgiornaledilucera.it": "Il Giornale di Lucera",
+  "lucerabynight.it": "Lucera by Night",
+  "ilfrizzo.it": "Il Frizzo",
+  "calciofoggia1920.net": "Calcio Foggia 1920 (sito ufficiale)",
+  "calciofoggia.it": "CalcioFoggia.it",
+  "foggiagol.it": "FoggiaGol",
+  "foggiacalciomania.com": "Foggiacalciomania",
+  "foggialandia.it": "Foggialandia",
+  "foggiasport24.com": "Foggiasport24",
+  "dilettantifoggia.it": "Dilettanti Foggia",
+  "telefoggia.tv": "Telefoggia",
+  "teleradioerre.it": "Teleradioerre",
+  "teleblu.it": "Teleblu",
+  "telenorba.it": "Telenorba",
+  "antennasud.com": "Antenna Sud",
+  "trmtv.it": "TRM TV",
+  "lagazzettadelmezzogiorno.it": "La Gazzetta del Mezzogiorno",
+  "ledicoladelsud.it": "L'Edicola del Sud",
+  "quotidianodipuglia.it": "Nuovo Quotidiano di Puglia",
+  "bari.repubblica.it": "la Repubblica Bari",
+  "corrieredelmezzogiorno.corriere.it": "Corriere del Mezzogiorno",
+  "ansa.it": "ANSA Puglia",
+  "rainews.it": "TGR Puglia (Rai)",
+  "borderline24.com": "Borderline24",
+  "noinotizie.it": "Noi Notizie",
+  "ilmattino.it": "Il Mattino (Napoli)",
+  "fanpage.it": "Fanpage",
+  "italpress.com": "Italpress",
+  "ilfattoquotidiano.it": "Il Fatto Quotidiano",
+  "agi.it": "AGI",
+  "adnkronos.com": "Adnkronos",
+  "corriere.it": "Corriere della Sera",
+  "repubblica.it": "la Repubblica",
+  "tgcom24.mediaset.it": "TGCom24",
+  "tg24.sky.it": "Sky TG24",
+  "ilpost.it": "Il Post",
+  "today.it": "Today.it",
+  "avvenire.it": "Avvenire",
+  "ilsole24ore.com": "Il Sole 24 Ore"
+ },
+ "domini_da_filtrare": [
+  "ansa.it",
+  "antennasud.com",
+  "borderline24.com",
+  "fanpage.it",
+  "italpress.com",
+  "noinotizie.it",
+  "telenorba.it",
+  "trmtv.it"
+ ],
+ "feeds": [
+  {
+   "nome": "l'Immediato",
+   "url": "https://www.immediato.net/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Stato Quotidiano",
+   "url": "https://www.statoquotidiano.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Stato Quotidiano – Foggia",
+   "url": "https://www.statoquotidiano.it/category/foggia/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Stato Quotidiano – San Severo",
+   "url": "https://www.statoquotidiano.it/category/san-severo/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Stato Quotidiano – Cerignola",
+   "url": "https://www.statoquotidiano.it/category/cerignola/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Stato Quotidiano – Lucera",
+   "url": "https://www.statoquotidiano.it/category/lucera/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Stato Quotidiano – Vieste",
+   "url": "https://www.statoquotidiano.it/category/vieste/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Stato Quotidiano – Monte Sant'Angelo",
+   "url": "https://www.statoquotidiano.it/category/monte-s-angelo/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Stato Quotidiano – San Marco in Lamis",
+   "url": "https://www.statoquotidiano.it/category/san-marco-in-lamis/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Stato Quotidiano – Orta Nova",
+   "url": "https://www.statoquotidiano.it/category/ortanova/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Stato Quotidiano – Monti Dauni",
+   "url": "https://www.statoquotidiano.it/category/monti-dauni/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Stato Quotidiano – Capitanata",
+   "url": "https://www.statoquotidiano.it/category/capitanata/capitanata-territorio/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "FoggiaToday",
+   "url": "https://news.google.com/rss/search?q=site%3Afoggiatoday.it+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Foggia Reporter",
+   "url": "https://www.foggiareporter.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Foggia Città Aperta",
+   "url": "https://www.foggiacittaaperta.it/feed",
+   "filtro": false
+  },
+  {
+   "nome": "Quotidiano di Foggia",
+   "url": "https://quotidianodifoggia.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "l'Attacco",
+   "url": "https://news.google.com/rss/search?q=site%3Alattacco.it+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Il Mattino di Foggia (ilmattinoquotidiano.it)",
+   "url": "https://news.google.com/rss/search?q=site%3Ailmattinoquotidiano.it+Foggia+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "InsideCapitanata",
+   "url": "https://www.insidecapitanata.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Lettere Meridiane",
+   "url": "https://www.letteremeridiane.org/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "ilSipontino.net",
+   "url": "https://www.ilsipontino.net/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Manfredonia News",
+   "url": "https://news.google.com/rss/search?q=site%3Amanfredonianews.it+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Il Fatto del Gargano",
+   "url": "https://news.google.com/rss/search?q=site%3Ailfattodelgargano.it+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Gazzetta H24",
+   "url": "https://www.gazzettah24.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Rete Gargano",
+   "url": "https://www.retegargano.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Fuoriporta.info",
+   "url": "https://news.google.com/rss/search?q=site%3Afuoriporta.info+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Civico93",
+   "url": "https://www.civico93.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "SanGiovanniRotondoNET",
+   "url": "https://www.sangiovannirotondonet.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Sanmarcoinlamis.eu",
+   "url": "https://www.sanmarcoinlamis.eu/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "La Gazzetta di San Severo",
+   "url": "https://www.lagazzettadisansevero.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "San Severo YouLive",
+   "url": "https://www.sanseveroyoulive.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "lanotiziaweb.it",
+   "url": "https://www.lanotiziaweb.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "CerignolaViva",
+   "url": "https://www.cerignolaviva.it/rss/",
+   "filtro": false
+  },
+  {
+   "nome": "Marchiodoc",
+   "url": "https://www.marchiodoc.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "LuceraWeb",
+   "url": "https://news.google.com/rss/search?q=site%3Aluceraweb.eu+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Il Giornale di Lucera",
+   "url": "https://news.google.com/rss/search?q=site%3Ailgiornaledilucera.it+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Lucera by Night",
+   "url": "https://news.google.com/rss/search?q=site%3Alucerabynight.it+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Il Frizzo",
+   "url": "https://news.google.com/rss/search?q=site%3Ailfrizzo.it+when%3A2d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Calcio Foggia 1920 (sito ufficiale)",
+   "url": "https://www.calciofoggia1920.net/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "CalcioFoggia.it",
+   "url": "https://www.calciofoggia.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "FoggiaGol",
+   "url": "https://www.foggiagol.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Foggiacalciomania",
+   "url": "https://foggiacalciomania.com/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Foggialandia",
+   "url": "https://www.foggialandia.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Foggiasport24",
+   "url": "https://foggiasport24.com/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Dilettanti Foggia",
+   "url": "https://www.dilettantifoggia.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Telefoggia",
+   "url": "https://www.telefoggia.tv/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Teleradioerre",
+   "url": "https://www.teleradioerre.it/feed/",
+   "filtro": false
+  },
+  {
+   "nome": "Teleblu",
+   "url": "https://news.google.com/rss/search?q=site%3Ateleblu.it+when%3A2d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Telenorba",
+   "url": "https://www.telenorba.it/feed/",
+   "filtro": true
+  },
+  {
+   "nome": "Antenna Sud",
+   "url": "https://www.antennasud.com/feed/",
+   "filtro": true
+  },
+  {
+   "nome": "TRM TV",
+   "url": "https://www.trmtv.it/feed/",
+   "filtro": true
+  },
+  {
+   "nome": "La Gazzetta del Mezzogiorno – Capitanata",
+   "url": "https://news.google.com/rss/search?q=site%3Alagazzettadelmezzogiorno.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "L'Edicola del Sud – Foggia",
+   "url": "https://news.google.com/rss/search?q=site%3Aledicoladelsud.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Nuovo Quotidiano di Puglia",
+   "url": "https://news.google.com/rss/search?q=site%3Aquotidianodipuglia.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "la Repubblica Bari",
+   "url": "https://news.google.com/rss/search?q=site%3Abari.repubblica.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Corriere del Mezzogiorno – Puglia",
+   "url": "https://news.google.com/rss/search?q=site%3Acorrieredelmezzogiorno.corriere.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "ANSA Puglia",
+   "url": "https://www.ansa.it/puglia/notizie/puglia_rss.xml",
+   "filtro": true
+  },
+  {
+   "nome": "TGR Puglia (Rai)",
+   "url": "https://news.google.com/rss/search?q=site%3Arainews.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Borderline24",
+   "url": "https://www.borderline24.com/feed/",
+   "filtro": true
+  },
+  {
+   "nome": "Noi Notizie",
+   "url": "https://www.noinotizie.it/feed/",
+   "filtro": true
+  },
+  {
+   "nome": "Il Mattino (Napoli)",
+   "url": "https://news.google.com/rss/search?q=site%3Ailmattino.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Fanpage",
+   "url": "https://www.fanpage.it/feed/",
+   "filtro": true
+  },
+  {
+   "nome": "Italpress",
+   "url": "https://www.italpress.com/feed/",
+   "filtro": true
+  },
+  {
+   "nome": "Il Fatto Quotidiano",
+   "url": "https://news.google.com/rss/search?q=site%3Ailfattoquotidiano.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "AGI",
+   "url": "https://news.google.com/rss/search?q=site%3Aagi.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Adnkronos",
+   "url": "https://news.google.com/rss/search?q=site%3Aadnkronos.com+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Corriere della Sera",
+   "url": "https://news.google.com/rss/search?q=site%3Acorriere.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "la Repubblica",
+   "url": "https://news.google.com/rss/search?q=site%3Arepubblica.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "TGCom24",
+   "url": "https://news.google.com/rss/search?q=site%3Atgcom24.mediaset.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Sky TG24",
+   "url": "https://news.google.com/rss/search?q=site%3Atg24.sky.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Il Post",
+   "url": "https://news.google.com/rss/search?q=site%3Ailpost.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Today.it",
+   "url": "https://news.google.com/rss/search?q=site%3Atoday.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Avvenire",
+   "url": "https://news.google.com/rss/search?q=site%3Aavvenire.it+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Il Sole 24 Ore",
+   "url": "https://news.google.com/rss/search?q=site%3Ailsole24ore.com+%28Foggia+OR+Capitanata+OR+foggiano+OR+Gargano+OR+Cerignola+OR+%22San+Severo%22+OR+Manfredonia+OR+Lucera%29+when%3A2d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Google News – Foggia città",
+   "url": "https://news.google.com/rss/search?q=Foggia+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Google News – Provincia / Capitanata",
+   "url": "https://news.google.com/rss/search?q=%28%22provincia+di+Foggia%22+OR+Capitanata+OR+foggiano+OR+Foggiano+OR+Tavoliere%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Google News – Sicurezza e istituzioni",
+   "url": "https://news.google.com/rss/search?q=%28%22Questura+di+Foggia%22+OR+%22Prefettura+di+Foggia%22+OR+%22Procura+di+Foggia%22+OR+%22Tribunale+di+Foggia%22+OR+%22carabinieri+Foggia%22+OR+%22polizia+Foggia%22%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Google News – Gargano",
+   "url": "https://news.google.com/rss/search?q=%28Gargano+OR+Manfredonia+OR+Vieste+OR+%22San+Giovanni+Rotondo%22+OR+%22Monte+Sant%27Angelo%22+OR+Mattinata+OR+Peschici+OR+%22Rodi+Garganico%22+OR+%22Vico+del+Gargano%22+OR+Ischitella+OR+Carpino+OR+%22Cagnano+Varano%22+OR+%22San+Nicandro+Garganico%22+OR+%22San+Marco+in+Lamis%22+OR+%22Rignano+Garganico%22+OR+%22Isole+Tremiti%22%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Google News – Alto Tavoliere",
+   "url": "https://news.google.com/rss/search?q=%28%22San+Severo%22+OR+Torremaggiore+OR+Apricena+OR+Lesina+OR+%22Poggio+Imperiale%22+OR+%22San+Paolo+di+Civitate%22+OR+Serracapriola+OR+Chieuti%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Google News – Basso Tavoliere e Cinque Reali Siti",
+   "url": "https://news.google.com/rss/search?q=%28Cerignola+OR+%22Orta+Nova%22+OR+Stornara+OR+Stornarella+OR+Carapelle+OR+Ordona+OR+Zapponeta+OR+%22Borgo+Mezzanone%22%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Google News – Monti Dauni settentrionali",
+   "url": "https://news.google.com/rss/search?q=%28Lucera+OR+Biccari+OR+Alberona+OR+Volturino+OR+%22Motta+Montecorvino%22+OR+Pietramontecorvino+OR+%22Volturara+Appula%22+OR+%22San+Marco+la+Catola%22+OR+%22Celenza+Valfortore%22+OR+Carlantino+OR+%22Casalnuovo+Monterotaro%22+OR+%22Casalvecchio+di+Puglia%22+OR+%22Castelnuovo+della+Daunia%22+OR+%22Roseto+Valfortore%22%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Google News – Monti Dauni meridionali",
+   "url": "https://news.google.com/rss/search?q=%28%22Ascoli+Satriano%22+OR+Bovino+OR+Deliceto+OR+%22Sant%27Agata+di+Puglia%22+OR+Accadia+OR+%22Rocchetta+Sant%27Antonio%22+OR+%22Monteleone+di+Puglia%22+OR+%22Anzano+di+Puglia%22+OR+%22Orsara+di+Puglia%22+OR+%22Celle+di+San+Vito%22+OR+%22Castelluccio+dei+Sauri%22+OR+%22Castelluccio+Valmaggiore%22%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Google News – Monti Dauni – Troia, Candela, Panni, Faeto",
+   "url": "https://news.google.com/rss/search?q=%28Troia+OR+Candela+OR+Panni+OR+Faeto%29+Foggia+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  },
+  {
+   "nome": "Google News – Sport",
+   "url": "https://news.google.com/rss/search?q=%28%22Calcio+Foggia%22+OR+%22Audace+Cerignola%22+OR+%22Manfredonia+Calcio%22+OR+%22Foggia+calcio%22%29+when%3A1d&hl=it&gl=IT&ceid=IT:it",
+   "filtro": false
+  }
+ ]
+}
