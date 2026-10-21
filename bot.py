@@ -31,12 +31,7 @@ CARTELLA = os.path.dirname(os.path.abspath(__file__))
 FILE_STATO = os.path.join(CARTELLA, "inviate.json")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
-PAROLE_CHIAVE = re.compile(
-    r"foggia|capitanata|foggian|gargano|tavoliere|monti dauni|manfredonia|cerignola|"
-    r"san severo|lucera|vieste|san giovanni rotondo|monte sant'angelo|torremaggiore|"
-    r"apricena|orta nova|san marco in lamis|san nicandro|peschici|mattinata|"
-    r"rodi garganico|vico del gargano|lesina|tremiti|ascoli satriano|bovino|"
-    r"zapponeta|stornara|carapelle|borgo mezzanone", re.I)
+# Filtro geografico: le parole sono in argomenti.json ("luoghi").
 
 
 def carica(nome):
@@ -60,6 +55,15 @@ CATEGORIE = {c["id"]: c for c in ARG["categorie"]}
 RX = {c["id"]: regex_da(c["parole"]) for c in ARG["categorie"]}
 RX_ESCL = regex_da(ARG["esclusioni"])
 DOMINI_SPORT = ARG["domini_sport"]
+RX_LUOGHI = regex_da(ARG["luoghi"])
+# nomi che sono anche parole comuni ("in mattinata"): valgono solo con la maiuscola
+RX_LUOGHI_MAIUSC = re.compile(r"(?<!\w)(?:" + "|".join(map(re.escape, ARG["luoghi_maiuscolo"])) + r")(?!\w)")
+
+
+def in_provincia(*testi):
+    """True se il testo parla di un luogo della provincia di Foggia."""
+    t = " ".join(testi).replace("\u2019", "'")
+    return bool(RX_LUOGHI.search(t) or RX_LUOGHI_MAIUSC.search(t))
 
 
 def classifica(titolo, testo, link, categorie_feed, host):
@@ -114,7 +118,6 @@ def scarica(feed):
 
 def raccogli():
     limite = time.time() - ORE_MASSIME * 3600
-    filtrati = CONF["domini_da_filtrare"]
     notizie, viste = [], set()
     with ThreadPoolExecutor(max_workers=12) as ex:
         risultati = list(ex.map(scarica, CONF["feeds"]))
@@ -135,14 +138,15 @@ def raccogli():
                 else:
                     fonte = (e.get("source") or {}).get("title", "Google News")
             sommario = re.sub(r"<[^>]+>", " ", e.get("summary") or "")
-            if any(host.endswith(d) for d in filtrati):
-                if not PAROLE_CHIAVE.search(titolo + " " + sommario):
-                    continue
+            categorie_feed = [t.get("term", "") for t in e.get("tags", [])]
+            # filtro geografico su TUTTE le fonti: titolo, sommario, categorie e indirizzo
+            if not in_provincia(titolo, sommario, " ".join(categorie_feed),
+                                urlparse(link).path.replace("-", " ")):
+                continue
             data_t = e.get("published_parsed") or e.get("updated_parsed")
             data = calendar.timegm(data_t) if data_t else time.time()
             if data < limite:
                 continue
-            categorie_feed = [t.get("term", "") for t in e.get("tags", [])]
             cat = classifica(titolo, sommario, link, categorie_feed, host)
             if cat not in CATEGORIE_ATTIVE:
                 continue
